@@ -1,0 +1,47 @@
+body {
+    background-color: #cce8cf;
+}
+
+#ContainerBackground{
+    background-image: url(/Desktop/jordanlai/Images/flowershop/flowershop.jpg)  
+}
+
+#ContainerBackground1{
+    background: rgba(0 , 0 , 0 , 0.8);
+}
+
+
+#ContainerHead{
+    width: 100%px;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+
+
+
+
+.Wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.Service{
+    float: left;
+    background-color: #cce8cf;
+    width: 30%;
+    margin: 5%;
+    padding: 5%;
+
+}
+
+img{
+    float:left;
+    margin: 10px;
+}
+
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
