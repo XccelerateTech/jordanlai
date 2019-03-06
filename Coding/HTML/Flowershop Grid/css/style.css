@@ -1,0 +1,161 @@
+
+/* Resetting the box model*/
+
+.row,
+.column {
+    box-sizing: border-box;
+}
+
+/*Clearing Floats
+
+In order to align columns horizontally, grid systems will float columns. 
+
+Must clear floating elements on the row to maintain structure of layout.
+
+This is where a clearfix comes in.
+
+By applying clearfix to CSS, it will cause row to stretch to accomodate columns it contains without adding to markup*/
+
+.row:before,
+.row:after {
+    content: " " ;
+    display: table;
+}
+
+.row:after{
+    clear:both;
+}
+
+
+/*Defining Columns */
+
+.column {
+    position: relative;
+    float: left;
+}
+
+/*Creating Gutters
+
+This will help create separataion between columns for greater legibility and aesthetics
+
+2 schools of thought: Defining paddings within each column or % based left margin for each column*/
+
+.column + .column {
+    margin-left: 1.6%;
+}
+
+
+/*Calculating Column Widths*/
+
+.column-1{
+    width: 6.86666666667%;
+}
+
+.column-2 {
+    width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
+.column-4 {
+    width: 32.2666666667%;
+}
+
+.column-5 {
+    width: 40.7333333333%;
+}
+
+.column-6 {
+    width: 49.2%;
+}
+
+.column-7 {
+    width: 57.6666666667%;
+}
+
+.column-8 {
+    width: 66.1333333333%;
+}
+
+.column-9 {
+    width: 74.6%;
+}
+
+.column-10 {
+    width: 83.0666666667%;
+}
+
+.column-11 {
+    width: 91.5333333333%;
+}
+
+.column-12 {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .column-1, 
+    .column-2, 
+    .column-3, 
+    .column-4, 
+    .column-5, 
+    .column-6, 
+    .column-7, 
+    .column-8, 
+    .column-9, 
+    .column-10, 
+    .column-11, 
+    .column-12 {
+        width: auto;
+        float: none;
+    }
+
+    .column + .column {
+        margin-left: 0;
+    }
+}
+
+
+
+/* Stylin' */
+
+.logo{
+    background-image: url("../images/logo.png");
+    height: 10%;
+    background-repeat: no-repeat;
+
+}
+
+
+.banner{
+    background-image: url("../images/flowershop.jpg");
+    height: 100%;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.button{
+border-radius: 23px;
+border: none;
+}
+
+
+body{
+    background-color: #23a83b;
+}
+
+.row{
+    padding: 3%;
+}
+
+.footer{
+    text-align:center;
+    color: red;
+}
