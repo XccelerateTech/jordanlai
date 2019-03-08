@@ -1,0 +1,97 @@
+.navbar{
+    background-color: transparent !important;
+}
+
+
+
+body{
+    background-color: white;
+}
+
+.line{
+    border-top: 3px solid #eb3812;
+    width: 5%;
+}
+
+#button1{
+    background-color: #eb3812;
+    border-radius: 50px;
+}
+
+#header-content{
+    background-image: url(../images/header.jpg);
+}
+
+#header-content-inner{
+    color: white;
+    justify-content: center;
+    padding: 150px;
+
+    
+}
+
+.body-primary{
+    background-color: #eb3812;
+}
+.container{
+    background-color: #eb3812;
+
+}
+#row-container{
+    background-color: #eb3812;
+
+}
+#row-inner-1{
+    padding: 50px;
+    color: white;
+}
+
+#button2{
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+}
+
+#row-inner-2{
+    padding: 50px;
+}
+
+.service{
+    margin: 30px
+}
+.service-inner1{
+    padding: 20px;
+}
+
+#service-box-whole{
+    background-color: white;
+    padding: 50px;
+}
+
+.service-box{
+    padding: 10px;
+}
+
+.img{
+    padding: 0 0 0 0;
+}
+
+#portfolio-inner-row{
+    background-color: black;
+}
+
+#portfolio-inner-bottom{
+    color: white;
+    padding: 30px;
+}
+
+#button3{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: 0px;
+}
+
+#footer1{
+    margin: 50px;
+}

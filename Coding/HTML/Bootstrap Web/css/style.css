@@ -1,0 +1,43 @@
+#button1{
+border-radius: 50px
+
+}
+
+.line{
+    border-top: 3px solid #eb3812;
+    width: 5%;
+}
+.jumbotron{
+    background-image: url(../images/header.jpg);
+    min-height: auto;
+    -webkit-background-size: cover
+}
+
+.header-inner{
+    color:white;
+
+}
+.jumbotron2{
+    background-color: #eb3812;
+    justify-content: center;
+}
+
+#row1{
+    margin: 50px;
+    padding: 5%;
+}
+
+#row2{
+    background-color: black;
+    color: white;
+}
+
+
+.card{
+    border: 0;
+}
+
+.footer1{
+    display:flex;
+    justify-content:center;
+}
