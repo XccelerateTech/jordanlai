@@ -15,9 +15,3 @@ if(classCount < 12){
 }
 
 classCheck();
-
-function addUp(a, b, c) {
-    return a + b + c;
-}
-
-addUp(1, 4, 6); // 11
